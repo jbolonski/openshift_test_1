@@ -1,0 +1,8 @@
+name: helloweb
+
+services:
+    devnotes-app:
+        container_name: helloweb
+        image: helloweb:latest
+        ports:
+            - 8088:80
