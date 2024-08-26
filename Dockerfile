@@ -16,5 +16,5 @@ ENV NGINX_VERSION 1.13.8
 USER nginx:nginx
 EXPOSE 8080
 
-ENTRYPOINT ["/bin/uid_entrypoint"]
+#ENTRYPOINT ["/bin/uid_entrypoint"]
 CMD ["nginx","-g","daemon off;"]
